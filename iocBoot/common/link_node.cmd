@@ -20,6 +20,7 @@ epicsEnvSet("YAML","${YAML_DIR}/000TopLevel.yaml")
 
 # Defaults Yaml file
 epicsEnvSet("DEFAULTS_FILE", "${YAML_DIR}/config/defaults.yaml")
+#epicsEnvSet("DEFAULTS_FILE", "/afs/slac/u/ld/jmock/defaults.yaml")
 
 # YCPSWASYN Dictionary file
 epicsEnvSet("YCPSWASYN_DICT_FILE", "firmware/mpsAN.dict")

@@ -3,9 +3,9 @@
     - AxiSy56040:
         - OutputConfig: !<value>
             - RTM_TIMING_IN0
-            - RTM_TIMING_IN0
-            - FPGA_TIMING_IN
+            - BP_TIMING_IN
             - RTM_TIMING_IN1
+            - FPGA_TIMING_IN
     - AmcCarrierTiming:
         - TimingFrameRx:
             - ClkSel: !<value> 0
